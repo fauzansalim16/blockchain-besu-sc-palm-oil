@@ -1,0 +1,18 @@
+{
+  "config": {
+    "chainid": 1337,
+    "berlinBlock": 0,
+    "qbft": {
+      "epochlength": 30000,
+      "blockperiodseconds": 5,
+      "requesttimeoutseconds": 10
+    }
+  }
+}
+
+struct Transaction {
+  uint256 creatorID;
+  uint256[] broughtIDs;
+  string hash;
+  uint256 timestamp;      
+}

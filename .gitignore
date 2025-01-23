@@ -1,0 +1,74 @@
+# --- Node.js ---
+# Dependency directory
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build files
+dist/
+build/
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Cache
+.npm/
+.eslintcache
+*.tsbuildinfo
+.DS_Store
+
+# --- Python ---
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Logs
+*.log
+
+# Config/environment files
+*.env
+.env.*
+*.ini
+*.cfg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Temporary files
+*.temp
+*.tmp
+*.swp
+*.bak
+
+# Editor-specific files
+*.idea/
+*.vscode/
